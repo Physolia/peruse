@@ -183,6 +183,7 @@ Kirigami.ApplicationWindow {
                         source: item.icon.name
                         width: height
                         height: Kirigami.Units.iconSizes.small
+                        color: item.highlighted ? Kirigami.Theme.highlightedTextColor : Kirigami.Theme.textColor
                     }
                     QQC2.Label {
                         leftPadding: Kirigami.Units.smallSpacing
